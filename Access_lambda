@@ -1,0 +1,55 @@
+To access the AWS Lambda service on the AWS Management Console, follow these steps:
+### Step 1: Sign in to the AWS Management Console
+1. Open a web browser and navigate to the [AWS Management Console](https://aws.amazon.com/console/).
+2. Log in using your **root user** or **IAM user credentials**.
+
+---
+
+### Step 2: Navigate to the Lambda Service
+1. **Search for Lambda**:
+   - In the AWS Console's search bar at the top, type **"Lambda"**.
+   - Select **Lambda** from the dropdown suggestions.
+   
+2. **Browse Services**:
+   - Click on the **"Services"** menu at the top-left of the console.
+   - Under the **"Compute"** category, select **"Lambda"**.
+
+---
+
+### Step 3: Explore the AWS Lambda Dashboard
+- Once on the Lambda service dashboard, you will see:
+  - **Functions**: To manage your existing Lambda functions or create new ones.
+  - **Application Overview**: Insights into any deployed applications.
+  - **Monitoring and Usage**: Usage metrics, logs, and quotas.
+  
+---
+
+### Step 4: Create a Lambda Function
+1. Click the **"Create function"** button on the dashboard.
+2. Choose one of the following options:
+   - **Author from scratch**: Write a new function.
+   - **Use a blueprint**: Start with predefined templates.
+   - **Deploy from a container image**: Use a Docker container image.
+   - **Browse serverless app repository**: Use pre-built applications.
+
+3. Configure the function:
+   - **Function name**: Give your function a unique name.
+   - **Runtime**: Select a programming language (e.g., Python, Node.js, etc.).
+   - **Execution role**: Assign an existing IAM role or create a new one.
+
+4. Click **Create function** to deploy your Lambda function.
+
+---
+
+### Step 5: Configure Triggers (Optional)
+- Add triggers for event sources like **S3**, **API Gateway**, or **CloudWatch** under the "Function overview" section.
+
+---
+
+### Step 6: Test and Monitor
+- Use the **Test** button to invoke the function with sample event payloads.
+- View logs in **Amazon CloudWatch** for debugging and monitoring.
+
+---
+
+This process ensures you can easily set up and manage AWS Lambda functions from the AWS Management Console.
